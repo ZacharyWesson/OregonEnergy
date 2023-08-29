@@ -1,0 +1,200 @@
+html {
+    height:100%;
+}
+body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+#map {
+    width: 100%;
+    height: 90%;
+    border-style: solid;
+
+}
+#credits p {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
+    line-height: 16px;
+}
+/*
+.legend, .legend2 {
+    line-height: 16px;
+    width: 200px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend i, .legend2 i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+}
+
+.legend b, .legend2 b {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.legend img, legend2 img {
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+    float: left;
+}
+
+.legend p, .legend2 p {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+*/
+.update {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    z-index: 1000;
+    line-height: 16px;
+    width: 150px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.update2 {
+    position: fixed;
+    top: 626px;
+    right: 10px;
+    z-index: 1000;
+    line-height: 16px;
+    width: 150px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.leaflet-container {
+    background-color: rgba(255,0,0,0.0);
+}
+
+.legend {
+
+    font: 13px/16px 'Open Sans', 'Arial', sans-serif;
+
+    line-height: 19px;
+
+    padding: 6px;
+
+    color: #000;
+
+    width: 240px;
+
+    background: rgba(255, 255, 255, 0.8);
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+    border-radius: 10px;
+
+    margin-bottom: 4px !important;
+
+}
+
+.legend i {
+
+    width: 15px;
+
+    height: 15px;
+
+    float: left;
+
+    margin-right: 8px;
+
+    opacity: 0.7;
+
+    background: #FE6006;
+
+}
+
+ 
+
+.legend p {
+
+    font-size: 10px;
+
+    margin-bottom: 0px;
+
+}
+
+ 
+
+.legend .colorcircle {
+
+    border-radius: 50%;
+
+    width: 15px;
+
+    height: 15px;
+
+    margin-top: 0px;
+
+}
+
+ 
+
+.legend .circlepadding {
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0);
+
+}
+
+ 
+
+ 
+
+.legend span {
+
+  display: block;
+
+  font-size: 10px;
+
+  float: left;
+
+}
+.fa-border-prop-radius {
+
+    border-width: 1px;
+
+    border-style: solid;
+
+    border-color: rgba(80, 80, 80, 1);
+
+    border-image: initial;
+
+    border-radius: 0% 0% 0% 0%;
+
+    padding: 0% 0% 0% 0%;
+
+}
+
+.legend-title {
+
+    font: 13px/16px 'Oswald', 'Arial', sans-serif;
+
+}
