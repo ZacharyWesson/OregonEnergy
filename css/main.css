@@ -58,43 +58,14 @@ body {
     margin: 0;
 }
 */
-.update {
-    position: fixed;
-    top: 200px;
-    right: 10px;
-    z-index: 1000;
-    line-height: 16px;
-    width: 150px;
-    color: #333333;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    padding: 6px 8px;
-    background: white;
-    background: rgba(255,255,255,0.5);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-}
-.update2 {
-    position: fixed;
-    top: 626px;
-    right: 10px;
-    z-index: 1000;
-    line-height: 16px;
-    width: 150px;
-    color: #333333;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    padding: 6px 8px;
-    background: white;
-    background: rgba(255,255,255,0.5);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-}
+
 .leaflet-container {
     background-color: rgba(255,0,0,0.0);
 }
 
 .legend {
 
-    font: 13px/16px 'Open Sans', 'Arial', sans-serif;
+    font: 13px/16px 'Nunito Sans', 'Arial', sans-serif;
 
     line-height: 19px;
 
@@ -195,6 +166,10 @@ body {
 
 .legend-title {
 
-    font: 13px/16px 'Oswald', 'Arial', sans-serif;
+    font: 13px/16px 'Nunito Sans', 'Arial', sans-serif;
 
+}
+
+body{
+font-family: 'Nunito Sans', sans-serif;
 }
