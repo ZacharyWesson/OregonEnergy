@@ -5,9 +5,10 @@
 var mymap = L.map('map', {center: [43.8, -120.5], zoom: 7});
 
 // Add base map tile layer to Leaflet map object
-var basemap = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-	maxZoom: 40,
-	attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> Zachary Wesson, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
+var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 20
 }).addTo(mymap);
 
 // Set color palette and number of colors
@@ -126,7 +127,7 @@ legend.onAdd = function (map) {
 	div.innerHTML += labels.join('<br>');
 	div.innerHTML += '<br>',
 //	add link in h ref ""
-	div.innerHTML += '<small class="reference">Data: <a href="oregon.gov/energy" target="_blank">Oregon Dept. of Energy</a></small>';
+	div.innerHTML += '<small class="reference">Data: <a href="https://oregon.gov/energy" target="_blank">Oregon Dept. of Energy</a></small>';
 	return div;
 };
 legend.addTo(mymap);
